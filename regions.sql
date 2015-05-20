@@ -1,9 +1,3 @@
-DROP TABLE regions;
-CREATE TABLE regions(
-  id INTEGER(3) NOT NULL PRIMARY KEY 
-, district_id INTEGER(2)
-, name varchar(100)
-);
 INSERT INTO regions (id, district_id, name) VALUES
 (327, 2, 'Волгоградская область'),
 (328, 2, 'Мичиган'),
