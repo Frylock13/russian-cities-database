@@ -1,8 +1,3 @@
-DROP TABLE bgroups;
-CREATE TABLE bgroups(
-  id INTEGER(2) NOT NULL PRIMARY KEY 
-, name VARCHAR(100)
-);
 INSERT INTO bgroups (id, name) VALUES
 (1,  'IT, Интернет, связь, телеком'),
 (2,  'Административная работа, секретариат, АХО'),
