@@ -1,8 +1,3 @@
-DROP TABLE districts;
-CREATE TABLE districts(
-  id INTEGER(2) NOT NULL PRIMARY KEY 
-, name VARCHAR(100)
-);
 INSERT INTO districts (id, name) VALUES
 (34, 'Сибирский федеральный округ'),
 (35, 'Дальневосточный федеральный округ'),
