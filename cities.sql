@@ -1,14 +1,3 @@
-DROP TABLE cities;
-CREATE TABLE cities(
-  id INTEGER(4) NOT NULL PRIMARY KEY 
-, region_id INTEGER(3)
-, district_id INTEGER(2)
-, prefix VARCHAR(255)
-, name VARCHAR(255)
-, tz VARCHAR(18)
-, timezone VARCHAR(6)
-, timezone2 VARCHAR(6)
-);
 INSERT INTO cities(id,region_id,district_id,prefix,name,tz,timezone,timezone2) VALUES (1852,300,33,'Kataysk','Катайск','Asia/Yekaterinburg','+05:00','+06:00'),
 (1851,300,33,'Dalmatovo','Далматово','Asia/Yekaterinburg','+05:00','+06:00'),
 (1850,299,32,'Ulyanovsk','Ульяновск','Europe/Moscow','+03:00','+04:00'),
