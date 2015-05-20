@@ -1,9 +1,3 @@
-DROP TABLE branches;
-CREATE TABLE branches(
-  id INTEGER(3) NOT NULL PRIMARY KEY 
-, bgroup_id INTEGER(2)
-, name VARCHAR(100)
-);
 INSERT INTO branches(id,bgroup_id,name) VALUES
 (1,1,'Call Center'),
 (2,1,'CRM-системы'),
